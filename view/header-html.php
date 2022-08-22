@@ -7,7 +7,7 @@
 </head>
 <body>
 <div class="container">
-    <div class="jumbotron">
+    <div>
         <h1><?= $titulo; ?></h1>
     </div>
     <?php if (isset($_SESSION['mensagem'])): ?>

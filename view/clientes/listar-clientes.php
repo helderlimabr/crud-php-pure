@@ -13,7 +13,8 @@
                     <a href="/alterar-cliente?id=<?= $cliente->getId(); ?>" class="btn btn-info btn-sm">
                         Alterar
                     </a>
-                    <a href="/excluir-cliente?id=<?= $cliente->getId(); ?>" class="btn btn-danger btn-sm">
+                    <a href="/excluir-cliente?id=<?= $cliente->getId(); ?>" class="btn btn-danger btn-sm"
+                       onclick="return confirm('Tem certeza que deseja excluir este cliente?')">
                         Excluir
                     </a>
                 </span>
